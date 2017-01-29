@@ -1,0 +1,25 @@
+{
+  "name": "Jen",
+  "description": "Jen Strickland Photography",
+  "main": "/public/index.html",
+  "authors": [
+    "Kelsey Huse"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jen",
+    "photography"
+  ],
+  "homepage": "https://github.com/kelseyhuse30/Jen-Strick",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+
+  }
+}

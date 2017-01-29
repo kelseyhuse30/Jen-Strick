@@ -1,0 +1,120 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background:#FFF;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+header {
+    width: 100%;
+	background-image: url(../img/header.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+}
+
+header h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FFF;
+	font-size: 3em;
+	font-weight: 700;
+	text-align: left;
+	top: 5%;
+	left: 5%;
+}
+
+.title {
+	padding: 45px;
+}
+
+.links, .social {
+	vertical-align: baseline;
+	font: 600 1.3em 'Open Sans Condensed', sans-serif;
+	font-color: #F4F4F4;;
+	text-align: right;
+	background-color: #373737;
+	height: 55px;
+}
+
+nav {
+	background-color: #373737;
+}
+
+ul {
+	list-style-type: none;
+	padding:15px;
+	margin: 0;
+}
+
+.links li, .social li {
+	display: inline;
+	margin: 8px;
+}
+
+.links li a, .social li a {
+	color: #F4F4F4;
+}
+
+.links li a:hover, .social li a:hover {
+	color: #C0B283;
+	text-decoration: none;
+}
+
+ul.nav {
+	margin: 0 5%;
+}
+
+ul.nav li a{ 
+	color: #373737;
+}
+
+.social {
+	text-align: center;
+}
+
+.navbar-sections
+{
+    position: absolute;
+    width: 20%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+.tab-pane {
+	padding: 0 8px;
+}
+
+.tab-pane img {
+	max-width: 95%;
+	width: 95%;
+	margin: 5%;
+	box-shadow: 0 3px 10px #333;
+}
+
+#bio {
+	background: #DCD0C0;
+	padding: 2%;
+}
+
+#bio h4 {
+	text-align: center;
+}
+
+#bio p {
+	font-size: 1.5em;
+}
+
+#inspirational p {
+	text-align: center;
+}
+
+footer {
+	padding-top: 20px;
+	text-align: center;
+	font: 'Euphoria Script', cursive;
+}

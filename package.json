@@ -1,0 +1,26 @@
+{
+  "name": "jen",
+  "version": "1.0.0",
+  "description": "Jen Strickland Photography",
+  "main": "/public/index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelseyhuse30/JenStrick.git"
+  },
+  "keywords": [
+    "jen",
+    "photography"
+  ],
+  "author": "Kelsey Huse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelseyhuse30/JenStrick/issues"
+  },
+  "homepage": "https://github.com/kelseyhuse30/JenStrick#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
