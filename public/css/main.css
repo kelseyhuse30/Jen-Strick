@@ -1,10 +1,10 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+
+* {
 	font-family: 'Open Sans Condensed', sans-serif;
-	background:#FFF;
 }
 
 h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
 }
 
@@ -19,12 +19,19 @@ header {
 
 header h4 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #FFF;
+	color: #fff;
 	font-size: 3em;
+	width: 280px;
 	font-weight: 700;
 	text-align: left;
 	top: 5%;
 	left: 5%;
+	padding-left: 10px;
+	background: #564d65; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left top, #564d65, #1b998b); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #564d65, #1b998b); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #564d65, #1b998b); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #564d65, #1b998b); /* Standard syntax */
 }
 
 .title {
@@ -33,15 +40,15 @@ header h4 {
 
 .links, .social {
 	vertical-align: baseline;
-	font: 600 1.3em 'Open Sans Condensed', sans-serif;
-	font-color: #F4F4F4;;
+	font-weight: 600;
+	font-size: 1.3em;
 	text-align: right;
-	background-color: #373737;
 	height: 55px;
-}
-
-nav {
-	background-color: #373737;
+	background: #564d65; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left top, #564d65, #1b998b); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #564d65, #1b998b); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #564d65, #1b998b); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #564d65, #1b998b); /* Standard syntax */
 }
 
 ul {
@@ -56,11 +63,11 @@ ul {
 }
 
 .links li a, .social li a {
-	color: #F4F4F4;
+	color: #fff;
 }
 
-.links li a:hover, .social li a:hover {
-	color: #C0B283;
+.links li a:hover, .social li a:hover, header h4:hover {
+	color: #ed217c;
 	text-decoration: none;
 }
 
@@ -101,7 +108,7 @@ ul.nav li a{
 	padding: 2%;
 }
 
-#bio h4 {
+#bio h4, #inspirational p {
 	text-align: center;
 }
 
@@ -109,12 +116,21 @@ ul.nav li a{
 	font-size: 1.5em;
 }
 
-#inspirational p {
+#welcome {
+	height: 400px;
 	text-align: center;
 }
 
+#welcome h2 {
+	color: #564d65;
+	text-align: center;
+	font-size: 6rem;
+}
+
+
 footer {
-	padding-top: 20px;
+	padding: 20px 0;
 	text-align: center;
 	font: 'Euphoria Script', cursive;
+	background-color: #ed217c;
 }
