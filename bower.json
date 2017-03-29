@@ -1,5 +1,5 @@
 {
-  "name": "Jen",
+  "name": "jen-strick",
   "description": "Jen Strickland Photography",
   "main": "/public/index.html",
   "authors": [
@@ -18,8 +18,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-
-  }
+  ]
 }

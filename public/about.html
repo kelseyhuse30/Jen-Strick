@@ -1,3 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Jen Strickland Photography</title>
+	<meta name="author" content="Kelsey Huse">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="keywords" content="photographer,Philadelphia,Philly,photos,portraits">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Custom Stylesheet for this site -->
+	<link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+
+<!-- START HEADER -->
+	<header>
+		<div class="title">
+			<h4>/JEN</h4>
+			<h4>STRICKLAND</h4>
+			<h4>PHOTOGRAPHY/</h4>
+		</div>
+	</header>
+
+<div class="row row-content nav">
+		<nav class= "col-sm-12">
+			<ul class = "links">
+			    <li class="active"> <a href="#">HOME/</a></li>
+			    <li><a href="about.html">ABOUT/</a></li>
+			    <li><a href="#">PORTFOLIO/</a></li>
+			    <li><a href="#">SHOP/</a></li>            
+			    <li><a href="https://goo.gl/forms/4cZsL59IW2wtX1kp1">CONTACT/</a></li>
+			</ul>	
+		</nav>
+	</div>
+
 <!-- START BIO -->
 <h3>BIO /</h3>
 	<div class="bio" id="bio">
@@ -11,3 +55,48 @@
 			</div> <!-- End 2nd column -->
 		</div><!-- End row -->
 	</div><!-- End bio div -->
+
+
+	<!-- START SOCIAL MEDIA LINKS -->
+	<div class="row row-content">
+		<ul class="social">
+        	<li><a href="https://www.facebook.com/jen.strickphotography/"><i class="fa fa-lg fa-facebook"></i></a></li>
+        	<li><a href="https://www.instagram.com/jen.strick/"><i class="fa fa-lg fa-instagram"></i></a></li>
+        	<li><a href="mailto:jenstricklandphotography@gmail.com?Subject=Photography%20inquiry" target="_top"><i class="fa fa-lg fa-envelope-o"></i></a></li>
+		</ul>
+	</div>	<!-- END SOCIAL MEDIA LINKS -->
+
+<!-- START FOOTER -->
+<footer>
+	<p>/ PHILADELPHIA, PENNSYLVANIA</p>
+	<p>© 2017 Jennifer Strickland /</p>
+</footer>
+<!-- END FOOTER -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/10579c3302.js"></script>
+<script src="validator.js"></script>
+<script src="contact.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDp0nqKDkEfIKVWmxzWZ2mUkhOOYELqUWg",
+    authDomain: "jen-strick-photography.firebaseapp.com",
+    databaseURL: "https://jen-strick-photography.firebaseio.com",
+    storageBucket: "jen-strick-photography.appspot.com",
+    messagingSenderId: "400117883712"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<!-- Script to prevent right-click -->
+<script>
+$("body").on("contextmenu", "img", function(e) {
+  return false;
+});
+</script>
+
+</body>
+</html>
