@@ -9,7 +9,7 @@ h3 {
 }
 
 header {
-    width: 100%;
+  width: 100%;
 	background-image: url(../img/header.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -28,10 +28,10 @@ header h4 {
 	left: 5%;
 	padding-left: 10px;
 	background: #564d65; /* For browsers that do not support gradients */
-  	background: -webkit-linear-gradient(left top, #564d65, #1b998b); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(bottom right, #564d65, #1b998b); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(bottom right, #564d65, #1b998b); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to bottom right, #564d65, #1b998b); /* Standard syntax */
+	background: -webkit-linear-gradient(left top, #564d65, #1b998b); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #564d65, #1b998b); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #564d65, #1b998b); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #564d65, #1b998b); /* Standard syntax */
 }
 
 .title {
@@ -45,10 +45,10 @@ header h4 {
 	text-align: right;
 	height: 55px;
 	background: #564d65; /* For browsers that do not support gradients */
-  	background: -webkit-linear-gradient(left top, #564d65, #1b998b); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(bottom right, #564d65, #1b998b); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(bottom right, #564d65, #1b998b); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to bottom right, #564d65, #1b998b); /* Standard syntax */
+	background: -webkit-linear-gradient(left top, #564d65, #1b998b); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #564d65, #1b998b); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #564d65, #1b998b); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #564d65, #1b998b); /* Standard syntax */
 }
 
 ul {
@@ -104,8 +104,9 @@ ul.nav li a{
 }
 
 #bio {
-	background: #DCD0C0;
+	background: #564d65;
 	padding: 2%;
+	color: white;
 }
 
 #bio h4, #inspirational p {
@@ -125,6 +126,12 @@ ul.nav li a{
 	color: #564d65;
 	text-align: center;
 	font-size: 6rem;
+}
+
+#jen {
+	position: relative;
+	max-height: 350px;
+	width: auto;
 }
 
 
